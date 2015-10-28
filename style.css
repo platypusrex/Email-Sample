@@ -1,0 +1,227 @@
+body {
+    margin: 55px 0;
+    font-family: 'Roboto', Helvetica, Arial, Verdana, sans-serif;
+}
+
+.container {
+    width: 695px;
+    border: 1px solid #555555;
+    padding: 0;
+}
+
+/* Email header styles */
+/* styles for positioning Massagebook logo at the top */
+.header {
+    height: 75px;
+}
+
+.img-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-container img {
+    height: 50px;
+    width: 240px;
+}
+
+
+/* Email notification type styles */
+/* includes heading tag and font-awesome icon */
+.notification-type {
+    height: 355px;
+    background: #428bca;
+    color: #fff;
+    padding-top: 15%
+}
+
+.fa-refresh {
+    font-size: 90px;
+}
+
+.notification-type h2 {
+    margin-top: 5%;
+}
+
+
+/* Email body styles */
+.email-body {
+    padding: 20px 50px 0;
+    height: 720px;
+}
+
+
+.email-body p {
+    font-size: 20px;
+}
+
+
+/* Email body/Client details section styles */
+/* applies to the client name and email type description */
+.client-details {
+    line-height: 5px;
+    margin-bottom: 60px;
+}
+
+.client-details p {
+    color: #777777;
+    font-size: 19px;
+}
+
+
+/* Email body/Message details section styles */
+/* applies to the message to the client */
+.message-details {
+    margin-bottom: 50px;
+}
+
+.message-details h3 {
+    font-weight: 900;
+}
+
+.message-details p {
+    font-size: 22px;
+    color: #666666;
+}
+
+.message-details span {
+    color: #FF00A0;
+}
+
+
+/* Email body/Plan details section styles */
+/* applies to the description of the client plan, pricing, and features*/
+.plan-details {
+    margin-bottom: 60px;
+}
+
+.pricing em,
+.features p:nth-of-type(1) span {
+    margin-left: 15px;
+}
+
+.plan-details hr {
+    width: 55%;
+    border-color: #888888;
+    float: left;
+}
+.plan-details h3 {
+    font-weight: 900;
+    color: #444444;
+}
+
+.plan-details p {
+    color: #888888;
+}
+
+.pricing {
+    margin-bottom: 50px;
+}
+
+.features p {
+    clear: both;
+}
+
+.features p:nth-of-type(2) {
+    color: #000;
+}
+
+.features p:nth-of-type(2) span {
+    margin-left: 80px;
+}
+
+
+/* Email body/Button Container section styles */
+/* applies to the log in button at the bottom of the email body */
+.btn-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.btn-block {
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+/* Email links styles */
+.links {
+    background: #f8f8f8;
+    height: 200px;
+    padding: 30px 30px 0 10px;
+}
+.list li {
+    list-style-type: none;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.list > li:first-child {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.list a:hover {
+    text-decoration: none;
+}
+
+
+/* Email footer styles */
+.email-footer {
+    padding-top: 30px;
+}
+
+
+/* Email footer/decorative circle styles */
+/*.email-footer .decorations{*/
+    /*margin: 0 auto 30px;*/
+    /*text-align: center;*/
+/*}*/
+
+.decorations {
+    width: 220px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.circle {
+    height: 35px;
+    width: 35px;
+    -webkit-border-radius: %50;
+    -moz-border-radius: %50;
+    border-radius: %50;
+    background: #d3d3d3;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+
+/* Email footer/Company contact info styles */
+.address {
+    margin-bottom: 70px;
+    font-size: 12px;
+    color: #777777;
+}
+
+.address a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Email footer/Company logo styles */
+.footer-logo {
+    margin-top: 30px;
+}
+
+.footer-logo p:nth-of-type(2) {
+    padding: 0;
+    margin-top: -10px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #ff4d00;
+}
+
+.footer-logo span {
+    color: #666666;
+}
